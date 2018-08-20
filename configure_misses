@@ -1,0 +1,15 @@
+Configure miss: version 0.10 of ISL
+Configure miss: expect
+Configure miss: xtensa-apl-elf-c++
+Configure miss: xtensa-apl-elf-g++
+Configure miss: xtensa-apl-elf-cxx
+Configure miss: xtensa-apl-elf-gxx
+Configure miss: xtensa-apl-elf-gcj
+Configure miss: xtensa-apl-elf-gfortran
+Configure miss: xtensa-apl-elf-gccgo
+Configure miss: xtensa-apl-elf-dlltool
+Configure miss: xtensa-apl-elf-lipo
+Configure miss: xtensa-apl-elf-windres
+Configure miss: xtensa-apl-elf-windmc
+Configure miss: whether xtensa-apl-elf-cc -B/builddir/build/BUILD/newlib-xtensa-sof-stable-1.x/xtensa-apl-elf/newlib/ -isystem /builddir/build/BUILD/newlib-xtensa-sof-stable-1.x/xtensa-apl-elf/newlib/targ-include -isystem /builddir/build/BUILD/newlib-xtensa-sof-stable-1.x/newlib/libc/include    accepts -g
+Configure miss: build system executable suffix

@@ -1,0 +1,40 @@
+From 4e120c33792905b612194897fbac0de986d7e718 Mon Sep 17 00:00:00 2001
+From: "Wang, Long" <long1.wang@linux.intel.com>
+Date: Wed, 25 Jul 2018 17:43:46 +0800
+Subject: [PATCH] support-mockbuild
+
+Signed-off-by: Wang, Long <long1.wang@linux.intel.com>
+---
+ mockbuild/Makefile  | 8 ++++++++
+ mockbuild/configure | 4 ++++
+ 2 files changed, 12 insertions(+)
+ create mode 100755 mockbuild/Makefile
+ create mode 100755 mockbuild/configure
+
+diff --git a/mockbuild/Makefile b/mockbuild/Makefile
+new file mode 100755
+index 00000000..89282940
+--- /dev/null
++++ b/mockbuild/Makefile
+@@ -0,0 +1,8 @@
++all:
++	unset CFLAGS CXXFLAGS FFLAGS CFFLAGS CC CXX && \
++	cd .. && \
++	make
++
++install:
++	cd .. && \
++	make install
+diff --git a/mockbuild/configure b/mockbuild/configure
+new file mode 100755
+index 00000000..fca6add9
+--- /dev/null
++++ b/mockbuild/configure
+@@ -0,0 +1,4 @@
++#!/bin/bash -e
++unset CFLAGS CXXFLAGS FFLAGS CFFLAGS CC CXX
++cd ../
++./configure --target=xtensa-apl-elf --prefix=/usr/share/xtensa-apl-elf/xtensa-apl-elf/lib
+-- 
+2.18.0
+
