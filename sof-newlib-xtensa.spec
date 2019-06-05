@@ -5,7 +5,7 @@
 %define keepstatic 1
 Name     : sof-newlib-xtensa
 Version  : 1.x
-Release  : 1
+Release  : 2
 URL      : https://github.com/thesofproject/newlib-xtensa/archive/sof-stable-1.x.tar.gz
 Source0  : https://github.com/thesofproject/newlib-xtensa/archive/sof-stable-1.x.tar.gz
 Summary  : No detailed summary available
